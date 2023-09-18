@@ -1,0 +1,111 @@
+.speech {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.direction {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: black;
+    background-color: azure;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.direction:hover {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    font-size: small;
+    transition: all 0.3s ease;
+}
+
+.name:hover {
+    border: 1px solid;
+    padding: 3px;
+    box-shadow: 3px 5px;
+    text-shadow: 2px 3px 5px deepskyblue;
+    border: 2px dotted darkslateblue;
+    color: deepskyblue;
+}
+
+.dr-Stockmann {
+    color: darkorchid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mrs-Stockmann {
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table th {
+    background-color: aquamarine;
+    color: chocolate;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: lightcyan;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: small;
+}
+
+.navbar a:hover {
+    background: #04AA6D;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.playImage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
